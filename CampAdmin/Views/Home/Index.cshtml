@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login Page</title>
+    <link rel="stylesheet" href="~/css/style.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="Login-Screen">
+        <div class="Login-Zone">
+            <div>
+                <span class="Login-Title">
+                    LOGİN
+                </span>
+                <div class="Login-Form">
+                    <form method="POST" action="/Home/Login" autocomplete="on">
+                        <div class="Input">
+                            <input type="text" class="form-control" name="Email" required>
+                            <label for="Email">Email:</label>
+                        </div>
+                        <div class="Input">
+                            <input type="password" class="form-control" name="Password" required>
+                            <label for="Password">Password:</label>
+                        </div>
+                        <div class="Submitbtn">
+                            <button type="submit" class="Submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="~/js/script.js"></script>
+
+</body>
+</html>

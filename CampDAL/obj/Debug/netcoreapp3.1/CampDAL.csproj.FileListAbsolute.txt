@@ -1,0 +1,15 @@
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampModel.dll
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.csprojAssemblyReference.cache
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.AssemblyInfoInputs.cache
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.AssemblyInfo.cs
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampDAL.deps.json
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampDAL.runtimeconfig.json
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampDAL.runtimeconfig.dev.json
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampDAL.dll
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampDAL.pdb
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\bin\Debug\netcoreapp3.1\CampModel.pdb
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.csproj.CoreCompileInputs.cache
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.csproj.CopyComplete
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.dll
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.pdb
+C:\Users\BuseYalcin\source\repos\CampingProject\CampDAL\obj\Debug\netcoreapp3.1\CampDAL.genruntimeconfig.cache

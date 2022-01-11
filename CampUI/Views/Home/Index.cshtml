@@ -1,0 +1,49 @@
+﻿
+@model IList<CampModel.Entity.Camp>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<header class="masthead" style="background-image: url('/img/campp.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>CAMPER KİMSELER</h1>
+                    <span class="subheading">Yeni yerler keşfetmeye var mısın ❔ </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @foreach (var item in Model)
+                {
+                    <div class="post-preview">
+                        <a asp-action="Post" asp-route-id="@item.Id">
+                            <h2 class="post-title">
+                                @item.Title
+                            </h2>
+                            <h3 class="post-subtitle">
+                                @item.SubTitle
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            @item.Author.Name tarafından
+                            @item.CreateDate 'da yayınlandı.
+                        </p>
+                    </div>
+                    <hr>
+                }
+                <div class="clearfix">
+                    <a class="btn btn-primary float-right" href="#">Başa Dön &uArr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

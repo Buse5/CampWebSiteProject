@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  font-family: Roboto, Arial, Helvatica, sans-serif;
+}
+body{
+  background-color: #fafafa;
+}
+.Login-Screen{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://i.hizliresim.com/k2GBlS.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-Zone{
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  background-color: #fafafa8f;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px -4px #fafafa;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-Zone > div{
+  width: 100%;
+}
+.Login-Title{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #2d2d2d;
+  font-weight: 600;
+  letter-spacing: -2px;
+  text-shadow: 0 0 10px 0 #fafafa
+}
+.Login-Form{ 
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+::placeholder {
+  color: #dbdbdb;
+}
+form{
+  width: 100%;
+  position: relative;
+}
+.Input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.Input input{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #707070;
+  background-color: transparent;
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 16px;
+  color: #2d2d2d;
+  z-index: 10;  
+  transition: all 0.25s ease 0s;
+}
+.Input label{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  font-size: 16px;
+  padding: 15px;
+  padding-left: 10px;
+  color: #2d2d2d;
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
+  user-select: none;
+  z-index: 9;
+}
+.input:focus + label, input:valid + label{
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 10px;
+  color: #707070
+}
+.input:focus{
+  border-bottom: 1px solid #2d2d2d;
+}
+.Submit{
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  background-color: #102048;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Submitbtn{
+  width: 100%;
+  text-align: center;
+}
+.login{
+  font-size: 30px;
+  width: 1em;
+  height: 1em;
+  border: 3px solid #e0e0e0;
+  border-top: 3px solid #2d2d2d;
+  border-radius: 50%;
+  display: block;
+  animation: Login 1s cubic-bezier(0.50, 0.50, 1, 1) 0s infinite;
+}
+@keyframes Login{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
